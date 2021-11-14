@@ -1,6 +1,4 @@
 
-h1{
-    align:center;
     body {
     font-family: arial, sans-serif;
     background-color: #C3DDDD;
@@ -8,7 +6,7 @@ h1{
 
 header {
      width: 80%;
-      background-color: #094462;
+      background-color: blue;
       color: white;
       margin-left: auto;
       margin-right: auto;
