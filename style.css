@@ -1,4 +1,27 @@
 h1 {
+    body {
+        font-family: arial, Times, sans-serif;
+        background-color:#C3DDDD;
+    }
+    header {
+        width:80%;
+        background-color: #094462;
+        color:white;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+        padding: 10px;
+    }
+    section{
+        width:80%;
+        background-color: #094462;
+        color:white;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+        padding: 10px;
+
+    }
 color:red;
 text-align:center;
 }
