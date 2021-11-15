@@ -3,7 +3,12 @@
     font-family: arial, sans-serif;
     background-color: #C3DDDD;
 }
-
+#myHeader {
+      background-color: lightblue;
+      color: black;
+      padding: 40px;
+      text-align: center;
+    }
 header {
      width: 80%;
       background-color: rgb(189, 189, 176);
