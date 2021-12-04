@@ -1,0 +1,25 @@
+<!----an object is a collection of related data and/or functionality.
+	Mostly begins with defining a variable---->
+	<!-----two ways to access the objects----by using dot notation---Ex:-person.name--------bracket notation-----person["name"];
+		and by using this keyword which refers to the current object.---Ex:-alert(this.name)----------->
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title> Object in JavaScript </title>
+	</head>
+	<body>
+		<p id="demo"></p>
+		<center> <h1> Objects in JavaScript </h1> </center>
+		<script>
+			var person = {
+				name: "Varun Reddy",
+				age: 30,
+				hobbies: ["coding", "practicing"],
+			};
+			document.getElementById("demo").innerHTML=
+			person.name + "<br>" +
+			person.age + "<br>"  +
+			person.hobbies[1];
+		</script>
+	</body>
+	</html>	
