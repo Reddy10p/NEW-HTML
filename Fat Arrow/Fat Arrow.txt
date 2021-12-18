@@ -1,0 +1,43 @@
+Fat Arrow Function Advantages   
+1. Shorter Code
+2. Implicit return :- if your function has only one statement i.e: return go with the implicit  return
+3. This keyword will return minimal object
+4. Function Overriding :- conflicts will resolve using fat arrow function
+
+function add() {
+    console.log("Addition");
+}
+add();
+Fat Arrow Function - () =>  {}
+
+let add = () => {}
+console.log("Addition");
+}
+add();
+
+2.........
+function add(a, b) {
+    console.log("Addition", a + b);
+}
+add(5, 6);
+
+let add = (a, b) => {
+    console.log("Addition", a + b);
+}
+add(5, 6);
+
+
+3..................
+function add(a, b) {
+    return a + b;
+}
+add(5, 6);
+
+/* implicit return */
+let add = (a, b) => return a * b;
+add(5, 6);
+------------------------------------
+let add = (a, b) => {
+    return a + b;
+}
+add(5, 6);
